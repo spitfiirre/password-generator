@@ -1,0 +1,88 @@
+body {
+    background-color:  #1F2937;
+    color: whitesmoke;
+    box-sizing: border-box; 
+}
+
+
+.container {
+    height: 350px;
+    max-width: 400px;
+    padding: 20px;
+    margin: 20px auto; 
+}
+
+#top {
+    letter-spacing: 2px;
+    font-size: 50px;
+    margin-bottom: 2px;
+    color: salmon;
+}
+
+#top:hover {
+    color: #10B981;
+}
+
+#title {
+    letter-spacing: 1px;
+    margin-bottom: 2px; 
+}
+#subtitle {
+color: #6B7280;
+margin-bottom: 35px; 
+}
+
+
+#line {
+    color: #6EE7B7;
+}
+
+
+#generator {
+    background-color: #10B981;
+    padding: 10px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    margin-bottom: 20px; 
+    color: whitesmoke;
+    
+}
+
+#generator:hover {
+    opacity: 0.7;
+}
+
+.passwords {
+    
+    display: flex; 
+    justify-content: space-between; 
+    
+}
+
+#pass-one, #pass-two {
+ display: flex;
+  height: 35px;
+  width: 200px;
+  background-color: #273549;
+  margin: 5px;
+  color: #10B981;
+  margin-bottom: 50px;
+  padding: 5px;;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.password {
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 8px 0;
+    font-family: var(--body);
+    color: var(--primary-color-base);
+    background: var(--grey-700);
+    border-radius: 6px;
+    justify-content: center;
+    text-align: center;
+}
